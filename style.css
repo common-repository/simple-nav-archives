@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.sna {
+	margin: 10px 0 20px;
+}
+
+.sna fieldset {
+	margin: 15px 0 20px;
+	border: none;
+	border-top: 1px dotted #999;
+	padding-top: 10px;
+}
+.sna legend {
+	font-size: 14px;
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+.sna label {
+	color: #000;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 1.8;
+	vertical-align: top;
+
+}
+.sna fieldset ol {
+	margin: 0;
+	padding: 0;
+	clear: left;
+}
+.sna fieldset li {
+	color: #999;
+	font-size: 11px;
+	list-style: none;
+	margin: 0;
+	padding: 5px;
+}
+.sna fieldset fieldset {
+	border: none;
+	color: #000;
+	margin: 3px 0 0;
+	padding-top: 5px;
+}
+.sna fieldset fieldset legend {
+	font-size: 12px;
+	font-weight: normal;	
+}
+.sna fieldset fieldset label {
+	display: block;
+	width: auto;
+}
+.sna label {
+	width: 130px;
+} /* Width of labels */
+.sna fieldset fieldset label {
+	margin-left: 133px;
+} /* Width plus 3 (html space) */
+
+.sna .note {
+	color: #999;
+	font-style: italic;
+}
+
+.sna code {
+	padding: 10px;
+	margin: 5px 0 0 !important;
+	display: block;
+	font-size: 12px;
+	color: #333;
+	font-family:"Courier New", Courier, monospace;
+	border: 1px dotted #999;
+}
+	.sna code span {
+		display: block;
+		white-space:nowrap;
+	}
+
+
+.sna p {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.sna .red {
+	color: red;
+}
+.sna .green {
+	color: green;
+}
+.sna .blue {
+	color: blue;
+}
+.sna .orange {
+	color: orange;
+}
+
